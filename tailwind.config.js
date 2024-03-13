@@ -12,7 +12,7 @@ module.exports = {
         paragraph: "18px",
         button: "18px",
         subheading: "18px",
-        listItem: "20px",
+        listItem: "13px",
       },
       fontWeight: {
         heading: 600,
@@ -20,6 +20,7 @@ module.exports = {
         button: 700,
         subheading: 500,
         listItem: 600,
+        MenuItem: 700,
       },
       lineHeight: {
         heading: "70px",

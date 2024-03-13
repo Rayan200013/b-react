@@ -9,7 +9,7 @@ const Header = () => {
 
   return (
     <header className="bg-background">
-      <div className="container mx-auto flex items-center justify-between py-4 px-6">
+      <div className="container mx-auto flex items-center justify-between py-6 px-6">
         {/* Logo */}
         <div className="flex items-center">
           <img
@@ -51,31 +51,52 @@ const Header = () => {
             isOpen ? "block" : "hidden"
           }`}
         >
-          <a href="#!" className="font-inter text-white relative">
+          <a
+            href="#!"
+            className="font-inter font-MenuItem text-white text-listItem relative"
+          >
             Skyrocket Your ROI
             <span className="hover-border"></span>
           </a>
-          <a href="#!" className="text-white  relative">
+          <a
+            href="#!"
+            className="font-inter font-MenuItem text-white text-listItem relative"
+          >
             BRAVA 360
             <span className="hover-border"></span>
           </a>
-          <a href="#!" className="text-white  relative">
+          <a
+            href="#!"
+            className="font-inter font-MenuItem text-white text-listItem relative"
+          >
             Services
             <span className="hover-border"></span>
           </a>
-          <a href="#!" className="text-white  relative">
+          <a
+            href="#!"
+            className="font-inter font-MenuItem text-white text-listItem relative"
+          >
             Portfolio
             <span className="hover-border"></span>
           </a>
-          <a href="#!" className="text-white  relative">
+          <a
+            href="#!"
+            className="font-inter font-MenuItem text-white text-listItem relative"
+          >
             Team
             <span className="hover-border"></span>
           </a>
-          <a href="#!" className="text-white  relative">
+          <a
+            href="#!"
+            className="font-inter font-MenuItem text-white text-listItem relative"
+          >
             Clients
             <span className="hover-border"></span>
           </a>
-          <a href="#!" className="text-white  relative">
+          <a
+            href="#!"
+            className="font-inter font-MenuItem text-white text-listItem relative"
+          >
             Blog
             <span className="hover-border"></span>
           </a>
