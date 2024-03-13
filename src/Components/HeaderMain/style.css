@@ -1,0 +1,14 @@
+.hover-border {
+  position: absolute;
+  left: 0;
+  right: 100%;
+  bottom: 0;
+  height: 2px;
+  background-color: transparent;
+  transition: right 0.3s ease-in-out;
+}
+
+a:hover .hover-border {
+  right: 0;
+  background-color: #9321d5; /* Purple color */
+}
