@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import "./style.css";
+import { bravaIcon } from "../../Assets/Icons";
+
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -12,11 +14,7 @@ const Header = () => {
       <div className="container mx-auto flex items-center justify-between py-6 px-6">
         {/* Logo */}
         <div className="flex items-center">
-          <img
-            className="h-10 w-10 mr-2"
-            src="/path/to/your/logo.png"
-            alt="Logo"
-          />
+          <img className="h-10 w-full mr-2" src={bravaIcon} alt="Logo" />
           {/* <span className="text-white font-bold text-lg">Brava 360 Digital</span> */}
         </div>
 

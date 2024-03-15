@@ -1,0 +1,18 @@
+.custom-button {
+  font-family: "Inter", Sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: center;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  cursor: pointer;
+  background: linear-gradient(to top right, #0437e8, #9321d5);
+  transition: 0.3s ease-in-out all;
+}
+
+.custom-button:hover {
+  background: #9321d5 !important;
+}

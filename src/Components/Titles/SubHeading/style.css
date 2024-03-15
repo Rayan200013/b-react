@@ -1,0 +1,8 @@
+.purple-border {
+  display: block;
+  width: 53px; /* Adjust as needed */
+  height: 6px; /* Adjust as needed */
+  background-color: #0437e8; /* Purple color */
+  margin: 0 auto;
+  margin-top: 20px;
+}
